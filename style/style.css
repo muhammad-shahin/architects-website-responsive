@@ -19,6 +19,16 @@ header {
   justify-content: space-between;
   align-items: center;
 }
+.text-logo h1 {
+  cursor: pointer;
+  color: #131313;
+  text-align: center;
+  font-size: 4.5rem;
+  font-weight: 700;
+}
+.text-logo h1:hover {
+  color: #ff900e;
+}
 nav a {
   display: inline-block;
   text-decoration: none;
@@ -28,6 +38,9 @@ nav a {
   font-weight: 500;
   line-height: 2.6rem;
   margin-right: 3rem;
+}
+nav a:hover {
+  color: #ff900e;
 }
 /* Banner Section */
 .banner {
@@ -52,6 +65,7 @@ nav a {
   height: 6.4rem;
   border-radius: 0.8rem;
   background: #ff900e;
+  text-align: center;
   color: #fff;
   font-size: 2rem;
   font-weight: 600;
@@ -187,4 +201,47 @@ nav a {
   font-size: 2.5rem;
   font-weight: 500;
   line-height: 4rem;
+}
+/* Some Facts Section styles */
+.facts-container {
+  padding: 0 29rem 0 24rem;
+  margin-bottom: 18rem;
+}
+.facts-top-content h1{
+  color: #131313;
+  font-size: 45px;
+  font-weight: 700;
+}
+.facts-numbers {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10rem;
+}
+.facts-box {
+  text-align: center;
+  width: 24.2rem;
+  height: 24.2rem;
+  border-radius: 8px;
+  border: 1px solid #ff900e;
+}
+.facts-box img {
+  width: 45.221px;
+  height: 45.221px;
+  padding: 0;
+  margin: 4.5rem auto 1rem auto;
+}
+.facts-box h2 {
+  color: #424242;
+  font-size: 4.5rem;
+  font-weight: 600;
+  padding: 0;
+  margin: 0;
+}
+.facts-box p {
+  color: #727272;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 0;
+  margin: 0 auto 6rem auto;
 }
