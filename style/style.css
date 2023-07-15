@@ -12,6 +12,7 @@ body {
 header {
   background-color: rgba(255, 144, 14, 0.1);
   padding: 5rem 24rem;
+  margin-bottom: 8.5rem;
 }
 .header-nav {
   display: flex;
@@ -57,3 +58,88 @@ nav a {
   border: 0;
   margin: 0 auto 5rem auto;
 }
+
+/* Our Features Section styles */
+.feature-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30rem 13rem 30rem;
+  gap: 7.5rem;
+  margin-bottom: 13rem;
+}
+.team-img {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 2.4rem;
+}
+.feature-content h2 {
+  width: 48.6rem;
+  color: #727272;
+  font-size: 4.5rem;
+  font-weight: 500;
+}
+#t1 {
+  color: #131313;
+  font-size: 4.5rem;
+  font-weight: 700;
+}
+#t2 {
+  color: #ff900e;
+  font-size: 4.5rem;
+  font-weight: 700;
+}
+.feature-content p {
+  width: 53.7rem;
+  color: #727272;
+  font-weight: 400;
+  margin-bottom: 3.2rem;
+}
+/* Features you will love section style */
+
+.feature-you-love {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  padding: 0 24rem;
+  gap: 5.5rem;
+  background: #fff;
+
+  /* feature-left-content */
+}
+.feature-top-title {
+  width: 46.8rem;
+  color: #131313;
+  font-size: 4.5rem;
+  font-weight: 700;
+}
+.feature-top-description {
+  width: 58.6rem;
+  color: #727272;
+  font-weight: 400;
+  line-height: 2.6rem;
+  margin-bottom: 3rem;
+}
+.content {
+  border-radius: 8px;
+  padding: 3rem 4.2rem 3rem 3rem;
+  margin-bottom: 2rem;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+  width: 58.6rem;
+  height: 17.1rem;
+}
+.content-title {
+  color: #131313;
+  font-size: 2rem;
+  font-weight: 600;
+}
+.content-description {
+  width: 51.4rem;
+  color: #727272;
+  font-weight: 400;
+  line-height: 2.6rem;
+}
+/* Feature right content */
