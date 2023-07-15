@@ -103,16 +103,27 @@ nav a {
   justify-content: space-between;
   align-items: start;
   padding: 0 24rem;
-  gap: 5.5rem;
+  gap: 14.6rem;
   background: #fff;
-
-  /* feature-left-content */
+  margin-bottom: 13rem;
 }
+
+/* feature-left-content */
 .feature-top-title {
+  position: relative;
   width: 46.8rem;
+  margin-left: 2rem;
   color: #131313;
   font-size: 4.5rem;
   font-weight: 700;
+}
+.feature-top-title::before {
+  content: "";
+  position: absolute;
+  left: -2rem;
+  width: 5px;
+  height: 105px;
+  background-color: #ff900e;
 }
 .feature-top-description {
   width: 58.6rem;
@@ -122,8 +133,7 @@ nav a {
   margin-bottom: 3rem;
 }
 .content {
-  border-radius: 8px;
-  padding: 3rem 4.2rem 3rem 3rem;
+  padding: 0.1rem 4.2rem 1rem 3rem;
   margin-bottom: 2rem;
   border-radius: 8px;
   background: #fff;
@@ -143,3 +153,38 @@ nav a {
   line-height: 2.6rem;
 }
 /* Feature right content */
+.feature-right-content {
+  position: relative;
+}
+.feature-right-content img {
+  width: 70.8rem;
+  height: 98.2rem;
+}
+.experience {
+  display: flex;
+  position: absolute;
+  left: -9rem;
+  bottom: -12.3rem;
+  justify-content: center;
+  align-items: center;
+  width: 34.2rem;
+  height: 20rem;
+  border-radius: 8px;
+  background: #ff900e;
+  padding: 4.5rem 4rem;
+  color: #fff;
+}
+.experience h1 {
+  width: 25.8rem;
+  text-align: center;
+  color: #fff;
+  font-size: 6.5rem;
+  font-weight: 700;
+  line-height: 7rem;
+}
+#experience-span {
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: 500;
+  line-height: 4rem;
+}
