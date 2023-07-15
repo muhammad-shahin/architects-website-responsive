@@ -207,7 +207,7 @@ nav a:hover {
   padding: 0 29rem 0 24rem;
   margin-bottom: 18rem;
 }
-.facts-top-content h1{
+.common-title{
   color: #131313;
   font-size: 45px;
   font-weight: 700;
@@ -244,4 +244,21 @@ nav a:hover {
   font-weight: 600;
   padding: 0;
   margin: 0 auto 6rem auto;
+}
+
+/* Our sponsor styles */
+.sponsor-container{
+  margin-bottom: 13rem;
+}
+.sponsor-top-content{
+  text-align: center;
+}
+.sponsor-top-content p{
+  margin: 2.4rem auto 5rem auto;
+}
+.sponsor-logo-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24rem 0 24rem;
 }
