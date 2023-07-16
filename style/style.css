@@ -47,14 +47,14 @@ nav a:hover {
   text-align: center;
 }
 .banner h1 {
-  width: 86.2rem;
+  width: 100%;
   color: #131313;
   font-size: 6.4rem;
   font-weight: 700;
   margin: 10rem auto 1rem auto;
 }
 .banner p {
-  width: 86.8rem;
+  width: 100%;
   color: #727272;
   font-weight: 400;
   line-height: 2.6rem;
@@ -282,4 +282,41 @@ footer{
   text-align: center;
   font-size: 2rem;
   font-weight: 400;
+}
+
+/* Responsive Styles */
+
+/* for mobile devices */
+@media (max-width: 575.98px){
+  header{
+    padding: 1rem 4rem;
+  }
+  .header-nav {
+    flex-direction: column;
+  }
+  .text-logo h1 {
+    font-size: 3.5rem;
+  }
+  nav a {
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 0;
+    margin-right: 1rem;
+  }
+  .banner h1 {
+    font-size: 4.4rem;
+    margin-top: 3rem;
+  }
+  .banner p {
+    width: 100%;
+    color: #727272;
+    font-weight: 400;
+    line-height: 2rem;
+  }
+  .primary-btn {
+    width: 50%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    margin: 0 auto 2rem auto;
+  }
 }
