@@ -63,7 +63,7 @@ nav a:hover {
   margin: 0 auto 3.2rem auto;
 }
 .banner img {
-  width: 100%;
+  width: 90%;
 }
 .primary-btn {
   width: 18rem;
@@ -207,6 +207,7 @@ nav a:hover {
   font-weight: 500;
   line-height: 4rem;
 }
+
 /* Some Facts Section styles */
 .facts-container {
   padding: 0 29rem 0 24rem;
@@ -292,7 +293,7 @@ footer {
 @media (max-width: 575.98px) {
   /* header section */
   header {
-    padding: 1rem 4rem;
+    padding: 1rem 1rem;
   }
   .header-nav {
     flex-direction: column;
@@ -306,14 +307,13 @@ footer {
     line-height: 0;
     margin-right: 1rem;
   }
+  
   .banner h1 {
     font-size: 4.4rem;
     margin-top: 3rem;
   }
   .banner p {
     width: 100%;
-    color: #727272;
-    font-weight: 400;
     line-height: 2rem;
   }
   .primary-btn {
@@ -356,15 +356,14 @@ footer {
 
 .feature-you-love {
   flex-direction: column;
-  padding: 0 2rem;
+  padding: 0 1rem;
   gap: 1rem;
-  background: #fff;
-  margin-bottom: 13rem;
+  margin-bottom: 3rem;
 }
 
 /* feature-left-content */
 .feature-top-title {
-  width: 100vw;
+  width: 90vw;
   margin-left: 1rem;
   font-size: 3.5rem;
 }
@@ -382,18 +381,14 @@ footer {
 .content {
   padding: 0.1rem 1rem 1rem 1rem;
   margin-bottom: 2rem;
-  width: 100vw;
+  width: 90vw;
   height: 17.1rem;
 }
 .content-title {
-  color: #131313;
   font-size: 2rem;
-  font-weight: 600;
 }
 .content-description {
   width: 100%;
-  color: #727272;
-  font-weight: 400;
   line-height: 2rem;
 }
 /* Feature right content */
@@ -420,6 +415,72 @@ footer {
 #experience-span {
   font-size: 2rem;
   line-height: 0;
+}
+
+/* Some facts section responsive styles */
+.facts-container {
+  padding: 0 2rem 0 2rem;
+  margin-bottom: 5rem;
+  margin-top: 8rem;
+  text-align: center;
+}
+.common-title {
+  color: #131313;
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+.facts-numbers {
+  gap: 1rem;
+  margin-top: 5rem;
+}
+.facts-box {
+  width: 100%;
+  height: 12rem;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.facts-box img {
+  width: 4.5rem;
+  height: 4.5rem;
+  margin: 0;
+}
+.facts-box h2 {
+  font-size: 2rem;
+}
+.facts-box p {
+  font-size: 1.6rem;
+  margin: 0;
+}
+
+/* Our sponsor responsive styles */
+.sponsor-container {
+  margin-bottom: 13rem;
+}
+.sponsor-top-content {
+  text-align: center;
+}
+.sponsor-top-content p {
+  margin: 2.4rem auto 5rem auto;
+}
+.sponsor-logo-container {
+  justify-content: center;
+  gap: 1rem;
+  padding: 0 1rem 0 1rem;
+}
+.sponsor-logo-container img{
+  width: calc(20% - 2rem);
+}
+/* Footer responsive style */
+footer {
+  margin: 0 12%;
+}
+.footer-content {
+  padding:1rem 1rem;
+  margin-bottom: 5rem;
+}
+.footer-content p {
+  font-size: 1.4rem;
+  font-weight: normal;
 }
 }
 /* for tab or medium devices */
@@ -500,7 +561,7 @@ footer {
   padding: 0 2rem;
   gap: 1rem;
   background: #fff;
-  margin-bottom: 13rem;
+  margin-bottom: 3rem;
 }
 
 /* feature-left-content */
@@ -527,14 +588,10 @@ footer {
   height: 17.1rem;
 }
 .content-title {
-  color: #131313;
   font-size: 2rem;
-  font-weight: 600;
 }
 .content-description {
   width: 100%;
-  color: #727272;
-  font-weight: 400;
   line-height: 2rem;
 }
 /* Feature right content */
@@ -561,5 +618,67 @@ footer {
 #experience-span {
   font-size: 2rem;
   line-height: 0;
+}
+/* Some facts section responsive styles */
+.facts-container {
+  padding: 0 2rem 0 2rem;
+  margin-bottom: 5rem;
+  margin-top: 8rem;
+  text-align: center;
+}
+.common-title {
+  font-size: 3.5rem;
+}
+.facts-numbers {
+  gap: 1rem;
+  margin-top: 5rem;
+}
+.facts-box {
+  width: 100%;
+  height: 12rem;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.facts-box img {
+  width: 4.5rem;
+  height: 4.5rem;
+  margin: 0;
+}
+.facts-box h2 {
+  font-size: 2rem;
+}
+.facts-box p {
+  font-size: 1.6rem;
+  margin: 0;
+}
+/* Our sponsor responsive styles */
+.sponsor-container {
+  margin-bottom: 13rem;
+}
+.sponsor-top-content {
+  text-align: center;
+}
+.sponsor-top-content p {
+  margin: 2.4rem auto 5rem auto;
+}
+.sponsor-logo-container {
+  justify-content: center;
+  gap: 1rem;
+  padding: 0 1rem 0 1rem;
+}
+.sponsor-logo-container img{
+  width: calc(20% - 2rem);
+}
+/* Footer responsive style */
+footer {
+  margin: 0 12%;
+}
+.footer-content {
+  padding:1rem 1rem;
+  margin-bottom: 5rem;
+}
+.footer-content p {
+  font-size: 1.4rem;
+  font-weight: normal;
 }
 }
