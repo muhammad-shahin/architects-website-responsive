@@ -6,6 +6,8 @@ html {
 body {
   font-family: "Work Sans", sans-serif;
   font-size: 1.6rem;
+  margin: 0;
+  padding: 0;
 }
 
 /* Header Section Styles*/
@@ -60,7 +62,7 @@ nav a:hover {
   line-height: 2.6rem;
   margin: 0 auto 3.2rem auto;
 }
-.banner img{
+.banner img {
   width: 100%;
 }
 .primary-btn {
@@ -267,10 +269,10 @@ nav a:hover {
 }
 
 /* Footer style */
-footer{
+footer {
   margin: 0 12%;
 }
-.footer-content{
+.footer-content {
   background: #fff4e7;
   padding: 2rem 35rem;
   text-align: center;
@@ -287,8 +289,9 @@ footer{
 /* Responsive Styles */
 
 /* for mobile devices */
-@media (max-width: 575.98px){
-  header{
+@media (max-width: 575.98px) {
+  /* header section */
+  header {
     padding: 1rem 4rem;
   }
   .header-nav {
@@ -319,4 +322,244 @@ footer{
     padding-bottom: 2.5%;
     margin: 0 auto 2rem auto;
   }
+  /* our features section */
+  .feature-container {
+    flex-direction: column-reverse;
+    padding: 0 3rem 3rem 3rem;
+    gap: 0;
+    margin-bottom: 5rem;
+  }
+  .team-img {
+    gap: 1rem;
+  }
+  .team-img img{
+    width: 100%;
+  }
+  .feature-content{
+    text-align: center;
+  }
+  .feature-content h2 {
+    width: 100%;
+    font-size: 3.5rem;
+  }
+  #t1 {
+    font-size: 3.5rem;
+  }
+  #t2 {
+    font-size: 3.5rem;
+  }
+  .feature-content p {
+    width: 100%;
+    margin-bottom: 3.2rem;
+  }
+  /* Features you will love section style */
+
+.feature-you-love {
+  flex-direction: column;
+  padding: 0 2rem;
+  gap: 1rem;
+  background: #fff;
+  margin-bottom: 13rem;
+}
+
+/* feature-left-content */
+.feature-top-title {
+  width: 100vw;
+  margin-left: 1rem;
+  font-size: 3.5rem;
+}
+.feature-top-title::before {
+  left: -1rem;
+  width: 5px;
+  height: 100%;
+}
+.feature-top-description {
+  width: 100vw;
+  margin-left: 1rem;
+  line-height: 2rem;
+  margin-bottom: 3rem;
+}
+.content {
+  padding: 0.1rem 1rem 1rem 1rem;
+  margin-bottom: 2rem;
+  width: 100vw;
+  height: 17.1rem;
+}
+.content-title {
+  color: #131313;
+  font-size: 2rem;
+  font-weight: 600;
+}
+.content-description {
+  width: 100%;
+  color: #727272;
+  font-weight: 400;
+  line-height: 2rem;
+}
+/* Feature right content */
+.feature-right-content {
+  position: relative;
+}
+.feature-right-content img {
+  width: 100%;
+  height: auto;
+}
+.experience {
+  left: 0;
+  bottom: -5%;
+  width: 50%;
+  height: auto;
+  margin: 0 25%;
+  padding: 0 0.5rem;
+}
+.experience h1 {
+  width: 100%;
+  font-size: 3.5rem;
+  line-height: 3.5rem;
+}
+#experience-span {
+  font-size: 2rem;
+  line-height: 0;
+}
+}
+/* for tab or medium devices */
+@media (min-width: 575.99px) and (max-width: 752px) {
+  /* header section */
+  header {
+    padding: 1rem 8rem;
+  }
+  .text-logo h1 {
+    font-size: 4rem;
+    transition: all 0.3s;
+  }
+  .header-nav {
+    flex-direction: column;
+  }
+  nav a {
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 0;
+    margin-right: 1rem;
+    transition: all 0.3s;
+  }
+  .banner h1 {
+    font-size: 4.4rem;
+    margin-top: 3rem;
+    transition: all 0.5s;
+  }
+  .banner p {
+    width: 100%;
+    color: #727272;
+    line-height: 2rem;
+    transition: all 0.6s;
+  }
+  .banner p br {
+    display: none;
+  }
+  .primary-btn {
+    width: 25%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    margin: 0 auto 2rem auto;
+    transition: all 0.7s;
+  }
+  /* our features section */
+  .feature-container {
+    flex-direction: column-reverse;
+    padding: 0 3rem 3rem 3rem;
+    gap: 0;
+    margin-bottom: 5rem;
+  }
+  .team-img {
+    gap: 1rem;
+  }
+  .team-img img{
+    width: 100%;
+  }
+  .feature-content{
+    text-align: center;
+  }
+  .feature-content h2 {
+    width: 100%;
+    font-size: 5rem;
+  }
+  #t1 {
+    font-size: 5rem;
+  }
+  #t2 {
+    font-size: 5rem;
+  }
+  .feature-content p {
+    width: 100%;
+    margin-bottom: 3.2rem;
+  }
+    /* Features you will love section style */
+
+.feature-you-love {
+  flex-direction: column;
+  padding: 0 2rem;
+  gap: 1rem;
+  background: #fff;
+  margin-bottom: 13rem;
+}
+
+/* feature-left-content */
+.feature-top-title {
+  width: 100vw;
+  margin-left: 1rem;
+  font-size: 3.5rem;
+}
+.feature-top-title::before {
+  left: -1rem;
+  width: 5px;
+  height: 100%;
+}
+.feature-top-description {
+  width: 100vw;
+  margin-left: 1rem;
+  line-height: 2rem;
+  margin-bottom: 3rem;
+}
+.content {
+  padding: 0.1rem 1rem 1rem 1rem;
+  margin-bottom: 2rem;
+  width: 100vw;
+  height: 17.1rem;
+}
+.content-title {
+  color: #131313;
+  font-size: 2rem;
+  font-weight: 600;
+}
+.content-description {
+  width: 100%;
+  color: #727272;
+  font-weight: 400;
+  line-height: 2rem;
+}
+/* Feature right content */
+.feature-right-content {
+  position: relative;
+}
+.feature-right-content img {
+  width: 100%;
+  height: auto;
+}
+.experience {
+  left: 0;
+  bottom: -5%;
+  width: 50%;
+  height: auto;
+  margin: 0 25%;
+  padding: 0 0.5rem;
+}
+.experience h1 {
+  width: 100%;
+  font-size: 3.5rem;
+  line-height: 3.5rem;
+}
+#experience-span {
+  font-size: 2rem;
+  line-height: 0;
+}
 }
